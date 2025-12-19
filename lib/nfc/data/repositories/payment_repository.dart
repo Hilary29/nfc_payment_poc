@@ -107,7 +107,6 @@ class PaymentRepository {
   /// État d'émission NFC
   bool get isEmitting => _nfcService.isEmitting;
 
-  /// Libère les ressources
   void dispose() {
     _nfcService.dispose();
   }
