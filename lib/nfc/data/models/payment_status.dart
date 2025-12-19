@@ -1,6 +1,7 @@
 enum PaymentStatus {
   CREATED,
   EXPOSED,
+  READ,
   AUTHORIZED,
   DECLINED,
   EXPIRED
