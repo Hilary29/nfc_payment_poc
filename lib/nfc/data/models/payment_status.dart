@@ -1,0 +1,7 @@
+enum PaymentStatus {
+  CREATED,
+  EXPOSED,
+  AUTHORIZED,
+  DECLINED,
+  EXPIRED
+}
